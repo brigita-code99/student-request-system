@@ -1,9 +1,9 @@
 <?php
 
-$host = getenv('DB_HOST') ?: 'localhost';
-$username = getenv('DB_USERNAME') ?: 'root';
-$password = getenv('DB_PASSWORD') ?: '';
-$database = getenv('DB_DATABASE') ?: 'student_request_system';
+$host = 'sql201.infinityfree.com';
+$username = 'if0_42941501';
+$password = 'QUh1WPxz3P';
+$database = 'if0_42941501_student_request_system';
 
 try {
     $dsn = "mysql:host={$host};dbname={$database};charset=utf8mb4";
